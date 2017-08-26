@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asi.tictactoe.InstructionsActivity"
+    android:background="@drawable/board_background"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/instructionsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The object of Tic Tac Toe is to get three in a row. You play on a three by three game board. The first player is known as X and the second is O. Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled. X always goes first, and in the event that no one has three in a row, the stalemate is called a cat game."
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:scrollbars="horizontal"
+            android:gravity="left"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/instructionsBottomText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enjoy the game"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="70dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
